@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Different Types of Cheese | Accordion View</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+		<style>
+			.accordion-image {
+				float: right;
+				max-width: 200px;
+				margin-left: 10px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<header class="col-12">
+					<h1>Different Types of Cheese</h1>
+				</header>
+			</div>
+			<div class="row">
+				<!-- Accordion container replaces previous navigation -->
+				<div class="col-12">
+					<div class="accordion" id="cheeseAccordion">
+						<!-- Fresh Cheeses Section -->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#freshCheeses">
+									Fresh Cheeses
+								</button>
+							</h2>
+							<div id="freshCheeses" class="accordion-collapse collapse show" data-bs-parent="#cheeseAccordion">
+								<div class="accordion-body">
+									<img src="images/food-cheese-stinky.png" alt="Cheese" class="accordion-image" height="250" width="300" />
+									<p>Hard cheese fromage frais caerphilly. Mozzarella jarlsberg swiss cheese on toast who moved my cheese squirty cheese fromage cheese and biscuits.</p>
+									
+									<h3>Cottage Cheese</h3>
+									<p>Roquefort smelly cheese cut the cheese. Pepper jack paneer st. agur blue cheese cheese triangles danish fontina cow red leicester fromage frais.</p>
+									
+									<h3>Cream Cheese</h3>
+									<p>Smelly cheese port-salut rubber cheese. Queso cheese strings manchego lancashire danish fontina cut the cheese stinking bishop bavarian bergkase.</p>
+									
+									<h3>Mozzarella</h3>
+									<p>Squirty cheese squirty cheese cheese on toast. Cauliflower cheese cow halloumi brie hard cheese monterey jack camembert de normandie danish fontina.</p>
+									
+									<h3>Ricotta</h3>
+									<p>Roquefort gouda everyone loves. Fromage frais taleggio queso manchego red leicester parmesan cheese slices melted cheese.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Soft Cheeses Section -->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#softCheeses">
+									Soft Cheeses
+								</button>
+							</h2>
+							<div id="softCheeses" class="accordion-collapse collapse" data-bs-parent="#cheeseAccordion">
+								<div class="accordion-body">
+									<img src="images/food-cheese-very-stinky.png" alt="Cheese" class="accordion-image" height="242" width="300" />
+									<p>The big cheese bavarian bergkase say cheese. Cut the cheese fromage frais cheesy grin stinking bishop bavarian bergkase hard cheese say cheese fromage.</p>
+									
+									<h3>Camembert</h3>
+									<p>Cottage cheese edam cheese on toast. Cut the cheese brie chalk and cheese lancashire gouda manchego port-salut cheese strings.</p>
+									
+									<h3>Coulommieres</h3>
+									<p>Cheese triangles fondue camembert de normandie. Manchego fromage frais mascarpone chalk and cheese cut the cheese cheese slices cheese triangles cheese slices.</p>
+									
+									<h3>Brie</h3>
+									<p>Croque monsieur dolcelatte rubber cheese. Edam when the cheese comes out everybody's happy hard cheese cottage cheese dolcelatte feta pepper jack fondue.</p>
+									
+									<h3>Munster</h3>
+									<p>Cheesy feet roquefort croque monsieur. Gouda rubber cheese bavarian bergkase cheese and biscuits monterey jack cheese and wine ricotta st. agur blue cheese.</p>
+									
+									<h3>Pont-l'Évèque</h3>
+									<p>Boursin macaroni cheese parmesan. Camembert de normandie cut the cheese fondue feta fromage dolcelatte parmesan bocconcini.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Pressed Cheeses Section -->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pressedCheeses">
+									Pressed Cheeses
+								</button>
+							</h2>
+							<div id="pressedCheeses" class="accordion-collapse collapse" data-bs-parent="#cheeseAccordion">
+								<div class="accordion-body">
+									<img src="images/food-fancy-cheese.png" class="accordion-image" height="243" width="300" />
+									<p>Monterey jack stilton bocconcini. Cheese and wine cheese and wine when the cheese comes out everybody's happy parmesan smelly cheese cauliflower cheese airedale camembert de normandie.</p>
+									
+									<h3>Emmenthal</h3>
+									<p>Croque monsieur pepper jack cheeseburger. Edam goat lancashire the big cheese swiss cow cow melted cheese.</p>
+									
+									<h3>Gruyère</h3>
+									<p>Fromage frais jarlsberg bocconcini. Cheese on toast rubber cheese halloumi port-salut macaroni cheese brie cheesecake babybel.</p>
+									
+									<h3>Jarlesburg</h3>
+									<p>Mascarpone brie danish fontina. Say cheese caerphilly babybel macaroni cheese cheesy feet cottage cheese ricotta cheese and biscuits.</p>
+									
+									<h3>Parmesan</h3>
+									<p>Cheese slices camembert de normandie cheese strings. Cream cheese boursin gouda cheese slices danish fontina cow danish fontina cauliflower cheese.</p>
+									
+									<h3>Romano</h3>
+									<p>In scelerisque sit amet mi non scelerisque. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Blue-Veined Cheeses Section -->
+						<div class="accordion-item">
+							<h2 class="accordion-header">
+								<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#blueVeinedCheeses">
+									Blue-Veined Cheeses
+								</button>
+							</h2>
+							<div id="blueVeinedCheeses" class="accordion-collapse collapse" data-bs-parent="#cheeseAccordion">
+								<div class="accordion-body">
+									<img src="images/food-cheese-very-very-stinky.png" alt="Cheese" class="accordion-image" height="246" width="300" />
+									<p>Fondue cheesecake cream cheese. Mozzarella jarlsberg everyone loves caerphilly stinking bishop queso squirty cheese red leicester.</p>
+									
+									<h3>Danish Blue</h3>
+									<p>Blue castello danish fontina who moved my cheese. Manchego brie cheeseburger queso dolcelatte queso smelly cheese cheesecake.</p>
+									
+									<h3>Gorgonzola</h3>
+									<p>Cheese on toast boursin feta. Cauliflower cheese when the cheese comes out everybody's happy hard cheese cream cheese paneer feta pepper jack rubber cheese.</p>
+									
+									<h3>Roquefort</h3>
+									<p>Fromage danish fontina macaroni cheese. Port-salut rubber cheese fromage frais cheese and wine rubber cheese say cheese cheese and wine cheesy grin.</p>
+									
+									<h3>Stilton</h3>
+									<p>When the cheese comes out everybody's happy croque monsieur goat. Fromage squirty cheese ricotta babybel when the cheese comes out everybody's happy cheese triangles taleggio st. agur blue cheese.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<footer class="mt-3">
+				<h3>References</h3>
+				<p><small>OpenClipArt. (n.d.). Cheese glitch clipart [Web site]. <a href="https://openclipart.org/search/?query=cheese+glitch" title="Cheese Glitch clipart">https://openclipart.org/search/?query=cheese+glitch</a>.</small></p>
+				<p><small>Rubber Cheese. (n.d.). Cheese ipsum [Web site]. <a href="http://www.cheeseipsum.co.uk/" title="Cheese Ipsum">http://www.cheeseipsum.co.uk/</a>.</small></p>
+				<p><small>Visual Dictionary. (n.d.). Classification of cheeses [Web site]. <a href="http://www.ikonet.com/en/visualdictionary/static/us/classification_cheeses" title="Classification of cheeses">http://www.ikonet.com/en/visualdictionary/static/us/classification_cheeses</a>.</small></p>
+			</footer>
+		</div>
+
+		<!-- Bootstrap JS -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+	</body>
+</html>
